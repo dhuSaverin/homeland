@@ -130,6 +130,7 @@ group :development do
   gem "better_errors"
   gem "spring"
   gem "spring-commands-rspec"
+  gem "capistrano", "~> 3.11", require: false
 end
 
 group :development, :test do
